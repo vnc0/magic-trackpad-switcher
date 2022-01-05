@@ -1,6 +1,8 @@
 # magic-trackpad-switcher
-Makes it more convenient to use one Apple Magic Trackpad 2 via Bluetooth on multiple devices (Mac/Linux). 
+Makes it more convenient to use one Apple Magic Trackpad 2 via Bluetooth on multiple devices (Mac/Linux).\
 Connect or disconnect with one click.
+
+
 
 ![preview](preview.png?raw=true "Preview")
 
@@ -19,7 +21,7 @@ Connect or disconnect with one click.
 ### Linux (Bash Script)
 1. Ensure that all dependencies (bluetoothctl, expect) are installed.
 2. Add the Bluetooth address of your trackpad (e.g. 18:7E:B9:69:FF:CD) to the script.
-3. You may want to use a keyboard shortcut or other facility of your desktop environment to start the script quickly. I use the following Gnome Shell extension for this purpose: https://github.com/lucaskenda/handyscripts2
+3. You may want to use a keyboard shortcut or some other feature of your desktop environment to quickly launch the script. I use the following Gnome shell extension for this purpose: https://github.com/lucaskenda/handyscripts2
 4. Start the script on the device that you want to disconnect the trackpad from. Then start the script on the device that you want the trackpad to connect to.
 
 
